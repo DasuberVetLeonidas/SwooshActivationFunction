@@ -4,9 +4,7 @@
 SAF is introduced to optimize predicted landmark detection heatmaps by enforcing an optimum mean squared error (MSE) between a pair of predicted heatmaps. It also enforces a secondary optimum MSE between a predicted heatmap and a zero matrix. 
 
 The formula of SAF is:
-$$
-f(x>0) = \left(ax + \frac{1}{bx}\right)^c - Min
-$$
+$$f(x>0) = \left(ax + \frac{1}{bx}\right)^c - Min$$
 
 The figure of SAF without the Min term is:
 ![Figure of SAF with different coefficient a configuration](SAF_Graph.png)
