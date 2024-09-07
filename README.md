@@ -15,5 +15,14 @@ Configuring SAF requires following steps:
 3. Compute coefficient b using equation: $$b = \frac{1}{a\times Optimum MSE^2}$$
 4. Compute coefficient c using equation: $$c = \frac{\log(Min)}{\log(\frac{ax^2+1}{bx})}, x = 0.0061$$
 
+## Citation
+If you find the Swoosh Activation Function useful for your research, please cite the following work:
 
-Citation: TBD
+@inproceedings{zhou2023improving,
+  title={Improving Automatic Fetal Biometry Measurement with Swoosh Activation Function},
+  author={Zhou, Shijia and Ahn, Euijoon and Wang, Hao and Quinton, Ann and Kennedy, Narelle and Sridar, Pradeeba and Nanan, Ralph and Kim, Jinman},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={283--292},
+  year={2023},
+  organization={Springer}
+}
